@@ -18,17 +18,10 @@ function App() {
                 </div>
                 <div className="card back">
                     <div>
-                        <span className="name">
-                            e{process.env.REACT_APP_NAME}
-                        </span>
-                        <span className="position">
-                            {process.env.REACT_APP_PART}
-                        </span>
+                        <span className="name">숭멋사</span>
+                        <span className="position">FE</span>
                     </div>
-                    <a
-                        className="github"
-                        href={process.env.REACT_APP_GITHUB}
-                    ></a>
+                    <a className="github"></a>
                 </div>
             </div>
         </>
